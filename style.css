@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .app-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .weather-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #weather-icon {
+    margin-right: 20px;
+  }
+  
+  #location {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #temperature {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
